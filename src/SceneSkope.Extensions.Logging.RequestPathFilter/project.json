@@ -19,7 +19,7 @@
     },
     "description": "SceneSkope RequestPath logging filter",
     "frameworks": {
-        "net4.5": {
+        "net4.5.1": {
             "buildOptions": {}
         },
         "net4.6": {

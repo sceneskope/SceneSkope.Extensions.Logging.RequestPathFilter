@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SceneSkope.Extensions.Logging.RequestPathFilter", "src\SceneSkope.Extensions.Logging.RequestPathFilter\SceneSkope.Extensions.Logging.RequestPathFilter.xproj", "{349A1E28-FC55-4476-B116-DBC3745BFDCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF087663-C78B-49EA-8E6B-19B295B62D70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6FA62825-F1AB-473E-8DDF-321C87C6E1A6}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SceneSkope.Extensions.Logging.RequestPathFilter.Tests", "test\SceneSkope.Extensions.Logging.RequestPathFilter.Tests\SceneSkope.Extensions.Logging.RequestPathFilter.Tests.xproj", "{DFA118B3-CA12-4793-B292-54A790B4C088}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{349A1E28-FC55-4476-B116-DBC3745BFDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349A1E28-FC55-4476-B116-DBC3745BFDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349A1E28-FC55-4476-B116-DBC3745BFDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349A1E28-FC55-4476-B116-DBC3745BFDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA118B3-CA12-4793-B292-54A790B4C088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA118B3-CA12-4793-B292-54A790B4C088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA118B3-CA12-4793-B292-54A790B4C088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA118B3-CA12-4793-B292-54A790B4C088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{349A1E28-FC55-4476-B116-DBC3745BFDCA} = {EF087663-C78B-49EA-8E6B-19B295B62D70}
+		{DFA118B3-CA12-4793-B292-54A790B4C088} = {6FA62825-F1AB-473E-8DDF-321C87C6E1A6}
+	EndGlobalSection
+EndGlobal
