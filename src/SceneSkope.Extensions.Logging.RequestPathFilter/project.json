@@ -1,0 +1,43 @@
+{
+    "version": "1.0.0-*",
+    "authors": [
+        "nick.randell@sceneskope.com"
+    ],
+    "packOptions": {
+        "tags": [
+            "SceneSkope",
+            "AspNet",
+            "logging"
+        ],
+        "projectUrl": "https://github.com/sceneskope/SceneSkope.Extensions.Logging.RequestPathFilter",
+        "licenseUrl": "https://opensource.org/licenses/MIT",
+        "iconUrl": "https://sceneskope.io/images/sceneskope-logo.png"
+    },
+    "copyright": "SceneSkope © 2016",
+    "buildOptions": {
+        "warningsAsErrors": true
+    },
+    "description": "SceneSkope RequestPath logging filter",
+    "frameworks": {
+        "net4.5": {
+            "buildOptions": {}
+        },
+        "net4.6": {
+            "buildOptions": {
+                "define": [
+                    "ASYNCLOCAL"
+                ]
+            }
+        },
+        "netstandard1.3": {
+            "buildOptions": {
+                "define": [
+                    "ASYNCLOCAL"
+                ]
+            }
+        }
+    },
+    "dependencies": {
+        "Microsoft.Extensions.Logging": "1.1.0"
+    }
+}
